@@ -1,4 +1,4 @@
-// This implements the shift function
+// This function shifts the element at index1 to index2
 function shift(array, index1, index2) {
 	if (index1 < index2) {
 		return array;
@@ -11,7 +11,7 @@ function shift(array, index1, index2) {
 	return array;
 }
 
-// This implements the insertion sort algorithm
+// This implements the iterative form of the insertion sort algorithm
 function insertionSort(array) {
     for(var i = 1; i < array.length; i++){
         var j = i;
